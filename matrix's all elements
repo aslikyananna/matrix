@@ -1,0 +1,7 @@
+ls = [[5, 6, 9],
+    [26, 12, 56],
+    [10, 13, 65]]
+for index in range(len(ls)*len(ls[0])):
+     i = index//len(ls)
+     j = index % len(ls)
+     print(ls[i][j])
